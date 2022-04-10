@@ -1,0 +1,124 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/tabbar",
+			"style": {
+				"navigationBarTitleText": "养学游",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mentalTest/list",
+			"style": {
+				"navigationBarTitleText": "身心灵评测",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mentalTest/explain",
+			"style": {
+				"navigationBarTitleText": "答题规则说明"
+			}
+		},
+		{
+			"path": "pages/mentalTest/index",
+			"style": {
+				"navigationBarTitleText": "填写基本信息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mentalTest/index2",
+			"style": {
+				"navigationBarTitleText": "在线测评",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/video",
+			"style": {
+				"navigationBarTitleText": "视频播放"
+			}
+		},
+		{
+			"path": "pages/share",
+			"style": {
+				"navigationBarTitleText": "个人分享",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/reader",
+			"style": {
+				"navigationBarTitleText": "小说阅读"
+			}
+		},
+		{
+			"path": "pages/gongdu/gongdu-list",
+			"style": {
+				"navigationBarTitleText": "共读回放",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索中心"
+			}
+		},
+		{
+			"path": "pages/activity/activity-list",
+			"style": {
+				"navigationBarTitleText": "活动列表",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100
+			}
+		},
+		{
+			"path": "pages/activity/activity-details",
+			"style": {
+				"navigationBarTitleText": "活动详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "活动详情",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
